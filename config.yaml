@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    bsaint71:
+      email: bsaint71@gmail.com
+      name: Berenice Saint
+      password: $2b$12$JNh59ZgHfrfWXRb/T1Q43.ofha9FaKjUJpaNKuSOXyz1OxSl3itdK
+    svsm03:
+      email: svsm03@gmail.com
+      name: Sebastian Vega
+      password: $2b$12$izqRT.6j4g47M/HQo9PmNeO/BMGkA460sQQbci6XPpXnLIW72xBGS
+preauthorized:
+  emails:
+  - svega03@hotmail.com
