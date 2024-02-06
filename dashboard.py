@@ -15,7 +15,7 @@ font_path = "fonts/DejaVuSans.ttf"
 def get_data_from_sheets(spreadsheet_id, range_name):
 
     try:
-        creds = service_account.Credentials.from_service_account_file('sheets_credentials.json', scopes=['https://www.googleapis.com/auth/spreadsheets'])
+        creds = service_account.Credentials.from_service_account_file('etc/secrets/credentials.json', scopes=['https://www.googleapis.com/auth/spreadsheets'])
         service = build('sheets', 'v4', credentials=creds)
         result = service.spreadsheets().values().get(spreadsheetId=spreadsheet_id, range=range_name).execute()
         values = result.get('values', [])
