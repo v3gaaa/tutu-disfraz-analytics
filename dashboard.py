@@ -33,7 +33,7 @@ def get_data_from_sheets(spreadsheet_id, range_name):
 def create_images_with_labels(df):
     # Tamaño de la imagen y cantidad máxima de etiquetas por imagen
     image_width = 800
-    image_height = 600
+    image_height = 800
     max_labels_per_image = 12
 
     # Fuente para las etiquetas
@@ -50,7 +50,7 @@ def create_images_with_labels(df):
     x = 50
     y = 50
     label_width = 300  # Ancho más corto
-    label_height = 80  # Altura más alta
+    label_height = 100  # Altura más alta
 
     # Espaciado entre las etiquetas
     y_spacing = 10
@@ -63,7 +63,7 @@ def create_images_with_labels(df):
 
     # Iterar sobre las filas del DataFrame y agregar etiquetas a la imagen
     for _, row in df.iterrows():
-        label = f"{row['Nombre']}\nGrupo: {row['Grupo']}\nNumero de Lista: {row['Numero de lista']}\nDisfraz: {row['Personaje']}"
+        label = f"{row['Nombre']}\nGrupo: {row['Grupo']}\nNumero de Lista: {row['Numero de lista']}\nDisfraz: {row['Personaje']}\nPantalones: {row['Pantalones']}  Color Pantalón: {row['Color Pantalón']}\nCamisa: {row['Camisa']}  Color Camisa: {row['Color Camisa']}\nVestido: {row['Vestido']}  Color Vestido: {row['Color Vestido']}"
 
         # Dibujar un rectángulo con borde negro
         draw.rectangle([x, y, x + label_width, y + label_height], outline="black")
