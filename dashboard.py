@@ -33,7 +33,7 @@ def get_data_from_sheets(spreadsheet_id, range_name):
 def create_images_with_labels(df):
     # Tamaño de la imagen y cantidad máxima de etiquetas por imagen
     image_width = 800
-    image_height = 800
+    image_height = 900
     max_labels_per_image = 12
 
     # Fuente para las etiquetas
@@ -50,7 +50,7 @@ def create_images_with_labels(df):
     x = 50
     y = 50
     label_width = 300  # Ancho más corto
-    label_height = 100  # Altura más alta
+    label_height = 150  # Altura más alta
 
     # Espaciado entre las etiquetas
     y_spacing = 10
