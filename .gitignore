@@ -1,4 +1,2 @@
-# Ignore sheets_credentials.json file
-sheets_credentials.json
-
 venv/
+.env

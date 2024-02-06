@@ -16,7 +16,7 @@ st.set_page_config(
     menu_items={
         'About': f'Pagina Web creada por Sebastian Vega para Tutu Disfraz. Linkedin: https://www.linkedin.com/in/svsm03/',
         'Get help': 'mailto:svsm03@hotmail.com.com?subject=Tutu Disfraz - Analytics Help&body=Por favor, describe tu problema o pregunta aquí. Adjunta capturas de pantalla si es necesario.',
-        'Report a bug': "https://www.github.com/svsm03/tutu-disfraz-analytics/issues/new",
+        'Report a bug': "https://www.github.com/v3gaaa/tutu-disfraz-analytics/issues/new",
     }
 )
 
