@@ -34,7 +34,7 @@ def create_images_with_labels(df):
     # Tamaño de la imagen y cantidad máxima de etiquetas por imagen
     image_width = 800
     image_height = 900
-    max_labels_per_image = 12
+    max_labels_per_image = 10
 
     # Fuente para las etiquetas
     font = ImageFont.truetype(font_path, size=12)
