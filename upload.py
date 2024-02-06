@@ -8,7 +8,7 @@ from googleapiclient.errors import HttpError
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
-creds = Credentials.from_service_account_file('etc/secrets/credentials.json', scopes=['https://www.googleapis.com/auth/spreadsheets'])
+creds = Credentials.from_service_account_file('/etc/secrets/credentials.json', scopes=['https://www.googleapis.com/auth/spreadsheets'])
 
 SPREADSHEET_ID = '1nsohqKheE8i2BJ3IdohrJ09GTVIU9u5Ufbgj1pPWyWE'
 
